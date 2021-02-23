@@ -1,0 +1,91 @@
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+setopt EXTENDED_GLOB\nfor rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do\n  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"\ndone
+ls -a
+mkdir ~/BACKUP
+cp ~/.zshrc* ~/BACKUP
+prompt -p
+prompt -l 
+vi .zpreztorc
+mkdir git
+vi ~/.zpreztorc
+source ~/.zpreztorc
+cd ..
+ll -s
+rm pytest_sample
+rm -rf pytest_sample
+mkdir pytest_sample
+git init
+git branch -a
+brew install pyenv
+pip 
+pyenv install --list
+pyenv install 3.9.1
+pyenv install 3.8.7
+pyenv install 3.7.10
+pyenv install 3.6.13
+cd git
+cd pytest_sample
+pyenv
+mv get-pip.py pip/
+ri -rf pi
+ri -rf pip
+python -m pip -V
+mkdir pip
+curl https://bootstrap.pypa.io/get-pip.py
+cd pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+python3.9 get-pip.py
+python3.9.1 get-pip.py
+python get-pip.py
+which pip
+brew list -l
+brew list
+rm -rf pip
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+exit
+pyenv rehash
+pyenv versions
+which python
+pip install poetry
+/Users/USER_NAME/.pyenv/versions/3.9.1/bin/python3.9 -m pip install --upgrade pip
+pyenv global 3.8.7
+pip freeze
+pyenv global 3.9.1
+poetry init
+cat pyproject.toml
+brew install direnv
+echo eval "$(direnv hook bash)" >> ~/.zshrc
+echo 'eval "$(direnv hook bash)"' >> ~/.zshrc
+cd
+mv MMA-aM-A.envrc .envrc
+vi .envrc
+pwd
+vi .env
+poetry add pytest
+touch run.py
+defaults write com.apple.finder _FXShowPosixPathInTitle -boolean true
+defaults write com.apple.finder _FXShowPosixPathInTitle -boolean false
+ps -ax
+ps -ax | grep code
+kill -p 64467
+kill -9 64467
+sudo kill -9 64467
+ps -ax | grep VScode
+. /Users/USER_NNAME/Library/Caches/pypoetry/virtualenvs/pytest-sample-S0tylTMB-py3.9/bin/activate
+poetry config virtualenvs.in-project true
+poetry config --list
+cd git/pytest_sample
+ll -a
+direnv edit .
+vi ~/.zshrc
+source ~/.zshrc
+direnv allow
+poetry shell
+. /Users/USER_NAME/git/pytest_sample/.venv/bin/activate
+ptyhon run.py
+python run.py
+function history-all { history -E 1 }
+history-all

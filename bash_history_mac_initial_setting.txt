@@ -1,0 +1,12 @@
+brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew install git
+git
+brew install zsh
+which zsh
+vi /etc/shells
+sudo vi /etc/shells
+chsh -s /usr/local/bin/zsh
+echo &SHELL
+wxit
+exit
